@@ -125,10 +125,14 @@
         const content = author.url
           ? `<a class="${classes}" href="${escapeHtml(author.url)}" target="_blank" rel="noreferrer">${name}</a>`
           : `<span class="${classes}">${name}</span>`;
-        const marker = author.corresponding
-          ? `<span class="author-marker" title="Corresponding author" aria-label="Corresponding author">📧</span>`
-          : "";
-        return `${content}${marker}`;
+        const markers = [];
+        if (author.projectLeader) {
+          markers.push(`<span class="author-marker" title="Project leader" aria-label="Project leader">⚓️</span>`);
+        }
+        if (author.corresponding) {
+          markers.push(`<span class="author-marker" title="Corresponding author" aria-label="Corresponding author">📧</span>`);
+        }
+        return `${content}${markers.join("")}`;
       })
       .join(", ");
   }

@@ -44,7 +44,7 @@ window.SITE_DATA = {
       venue: "ACM International Conference on Multimedia (ACM MM 2026)",
       authors: [
         { name: "Yulun Zhang", self: true },
-        { name: "Zixu Li", url: "https://lee-zixu.github.io/" },
+        { name: "Zixu Li", url: "https://lee-zixu.github.io/", projectLeader: true },
         { name: "Zhiwei Chen", url: "https://zivchen-ty.github.io/" },
         { name: "Zhiheng Fu", url: "https://zhihfu.github.io/" },
         { name: "Wenbo Wang" },
