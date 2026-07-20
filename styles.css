@@ -494,7 +494,11 @@ a.publication-author:hover {
 }
 
 .publication-author--self {
-  color: var(--coral);
+  color: transparent;
+  background: linear-gradient(135deg, #d500f9 0%, #ff1744 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-style: italic;
   font-weight: 850;
 }
