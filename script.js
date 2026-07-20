@@ -12,10 +12,9 @@
       "news.kicker": "Updates",
       "news.title": "News",
       "publications.title": "Publications",
-      "publications.note": "The highlighted name denotes the homepage owner.",
+      "publications.note": "⚓️ denotes project leader; 📧 denotes corresponding author.",
       "honors.title": "Honors and Awards",
       "education.title": "Education",
-      "footer.credit": "Visual style aligned with the iLearn academic homepage family.",
       empty: "No publications match the selected filters.",
       email: "Email",
       github: "GitHub",
@@ -28,10 +27,9 @@
       "news.kicker": "最新动态",
       "news.title": "新闻动态",
       "publications.title": "论文成果",
-      "publications.note": "高亮姓名表示主页作者。",
+      "publications.note": "⚓️ 表示项目负责人；📧 表示通讯作者。",
       "honors.title": "荣誉与奖励",
       "education.title": "教育经历",
-      "footer.credit": "视觉风格与 iLearn 学术主页系列保持一致。",
       empty: "没有符合当前筛选条件的论文。",
       email: "邮箱",
       github: "GitHub",
@@ -57,9 +55,10 @@
   function renderProfile() {
     const profile = data.profile;
     const displayName = language === "zh" && profile.nameZh ? profile.nameZh : profile.name;
+    const englishDisplayName = profile.nameZh ? `${profile.name} (${profile.nameZh})` : profile.name;
     const fullHeading = language === "zh"
-      ? `你好，我是 ${displayName}。`
-      : `Hi, I am ${displayName}.`;
+      ? `你好，我是${displayName}（${profile.name}）。`
+      : `Hi, I am ${englishDisplayName}.`;
 
     document.documentElement.lang = language === "zh" ? "zh-CN" : "en";
     document.title = `${profile.name} | Academic Homepage`;
@@ -70,7 +69,9 @@
     document.querySelector("[data-profile-photo]").alt = `Portrait of ${profile.name}`;
 
     const role = profile.role?.[language] || "";
-    document.querySelector("[data-profile-role]").textContent = role;
+    const roleElement = document.querySelector("[data-profile-role]");
+    roleElement.textContent = role;
+    roleElement.hidden = !role;
 
     const links = [];
     if (profile.location) {
@@ -125,7 +126,7 @@
           ? `<a class="${classes}" href="${escapeHtml(author.url)}" target="_blank" rel="noreferrer">${name}</a>`
           : `<span class="${classes}">${name}</span>`;
         const marker = author.corresponding
-          ? `<span class="author-marker" title="Corresponding author" aria-label="Corresponding author">✉</span>`
+          ? `<span class="author-marker" title="Corresponding author" aria-label="Corresponding author">📧</span>`
           : "";
         return `${content}${marker}`;
       })

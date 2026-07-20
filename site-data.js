@@ -1,39 +1,36 @@
 // Edit this file when personal information changes. Empty optional fields stay hidden.
 window.SITE_DATA = {
   profile: {
-    // Inferred from the first-author listing of LightAIR; update if another display name is preferred.
     name: "Yulun Zhang",
-    nameZh: "",
+    nameZh: "张雨伦",
     role: {
-      en: "Multimodal Learning Researcher",
-      zh: "多模态学习研究者",
+      en: "",
+      zh: "",
     },
-    location: "Jinan, Shandong, China",
-    email: "",
-    github: "",
+    location: "Shenzhen, Guangdong, China",
+    email: "contact.yulun@gmail.com",
+    github: "rainy-london",
     scholar: "",
   },
 
   intro: {
     en: [
-      "Welcome to my homepage! I am currently conducting research in multimodal understanding.",
-      "My research interests include <strong>multimodal learning, robust representation learning, and trustworthy AI</strong>.",
+      "Welcome to my homepage! I am currently a Master's student at the <a href=\"https://www.siat.ac.cn/\" target=\"_blank\" rel=\"noreferrer\">Shenzhen Institute of Advanced Technology</a>, University of Chinese Academy of Sciences, advised by <a href=\"https://people.ucas.edu.cn/~rxwang\" target=\"_blank\" rel=\"noreferrer\">Prof. Ruxin Wang</a>. Prior to this, I received my Bachelor's degree in Data Science and Big Data Technology from <a href=\"https://www.sdu.edu.cn/\" target=\"_blank\" rel=\"noreferrer\">Shandong University</a> in 2023. My research interests mainly focus on <strong>Multimodal Large Language Models, robust representation learning, and trustworthy AI</strong>.",
     ],
     zh: [
-      "欢迎来到我的个人主页！我目前主要开展多模态理解方向的研究。",
-      "我的研究兴趣包括<strong>多模态学习、鲁棒表征学习与可信人工智能</strong>。",
+      "欢迎来到我的个人主页！我目前是中国科学院大学<a href=\"https://www.siat.ac.cn/\" target=\"_blank\" rel=\"noreferrer\">深圳先进技术研究院</a>的硕士研究生，师从<a href=\"https://people.ucas.edu.cn/~rxwang\" target=\"_blank\" rel=\"noreferrer\">王如心教授</a>。此前，我于 2023 年获得<a href=\"https://www.sdu.edu.cn/\" target=\"_blank\" rel=\"noreferrer\">山东大学</a>数据科学与大数据技术专业学士学位。我的研究兴趣主要聚焦于<strong>多模态大语言模型、鲁棒表征学习与可信人工智能</strong>。",
     ],
     note: {
-      en: "My detailed academic background, current affiliation, and contact information will be added as the homepage is refined.",
-      zh: "个人教育经历、当前单位与联系方式将在后续完善主页时逐项补充。",
+      en: "I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab's papers and code are open source. Please visit <a href=\"https://github.com/iLearn-Lab\" target=\"_blank\" rel=\"noreferrer\">iLearn Lab</a> and feel free to share your valuable feedback.",
+      zh: "作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。我参与的主要项目均已全面开源；同时，智能媒体研究中心（iLearn）的论文、代码与相关项目也均已开源。欢迎访问 <a href=\"https://github.com/iLearn-Lab\" target=\"_blank\" rel=\"noreferrer\">iLearn Lab</a> 并提出宝贵意见。",
     },
   },
 
   news: [
     {
       date: "2026.07.10",
-      en: "Our paper <strong>LightAIR</strong> was accepted by <strong>ACM MM 2026</strong>! Congratulations to all co-authors!",
-      zh: "我们的论文 <strong>LightAIR</strong> 被 <strong>ACM MM 2026</strong> 接收！感谢并祝贺所有合作者！",
+      en: "🎉🎉 One paper (LightAIR), was accepted by <strong>ACM MM 2026</strong>! Congratulations to all co-authors!",
+      zh: "🎉🎉 一篇论文（LightAIR）被 <strong>ACM MM 2026</strong> 接收！祝贺所有合作者！",
     },
   ],
 
@@ -58,11 +55,20 @@ window.SITE_DATA = {
       ],
       tags: ["ACM MM 2026", "First Author", "CCF A", "Multimodal Understanding"],
       links: [
-        { label: "Coming Soon", url: "", disabled: true },
+        { label: "[Coming Soon]", url: "", disabled: true },
       ],
     },
   ],
 
   honors: [],
-  education: [],
+  education: [
+    {
+      en: "<em>2025.09 - Present</em>, Shenzhen Institute of Advanced Technology, University of Chinese Academy of Sciences, Master's Degree.",
+      zh: "<em>2025.09 - 至今</em>，中国科学院大学深圳先进技术研究院，硕士研究生。",
+    },
+    {
+      en: "<em>2019.09 - 2023.06</em>, Shandong University, Data Science and Big Data Technology, Bachelor's Degree.",
+      zh: "<em>2019.09 - 2023.06</em>，山东大学，数据科学与大数据技术，学士学位。",
+    },
+  ],
 };
