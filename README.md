@@ -21,22 +21,20 @@
 ## 发布到 GitHub Pages
 
 1. 登录 GitHub，创建一个公开仓库，仓库名必须是 `你的GitHub用户名.github.io`。
-2. 当前项目使用仓库 `rainy-london/zhang-yulun.github.io`，在本目录打开 PowerShell 后运行：
+2. 当前项目使用仓库 `rainy-london/rainy-london.github.io`，在本目录打开 PowerShell 后运行：
 
 ```powershell
 git init
 git add .
 git commit -m "Initial academic homepage"
 git branch -M main
-git remote add origin https://github.com/rainy-london/zhang-yulun.github.io.git
+git remote add origin https://github.com/rainy-london/rainy-london.github.io.git
 git push -u origin main
 ```
 
 3. 打开仓库的 `Settings` -> `Pages`。
 4. 在 `Build and deployment` 中选择 `Deploy from a branch`，分支选择 `main`，目录选择 `/(root)`，然后保存。
-5. 等待 GitHub 构建完成后，访问 `https://rainy-london.github.io/zhang-yulun.github.io/`。
-
-如果希望主页地址直接是 `https://rainy-london.github.io/`，仓库名需要改为 `rainy-london.github.io`。如果希望地址是 `https://zhang-yulun.github.io/`，则需要使用名为 `zhang-yulun` 的 GitHub 账号创建同名主页仓库，或配置自定义域名。
+5. 等待 GitHub 构建完成后，访问 `https://rainy-london.github.io/`。
 
 以后修改内容后，只需运行：
 
