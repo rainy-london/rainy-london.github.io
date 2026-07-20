@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Academic homepage of Yulun Zhang, featuring research interests, news, and publications."
+    >
+    <meta name="theme-color" content="#ffffff">
+    <title>Yulun Zhang | Academic Homepage</title>
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="stylesheet" href="styles.css">
+    <script src="site-data.js" defer></script>
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="masthead">
+      <div class="masthead__inner">
+        <a class="site-title" href="#about" data-site-title>Yulun Zhang's Homepage</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#news" data-i18n="nav.news">News</a>
+          <a href="#publications" data-i18n="nav.publications">Publications</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="site-shell">
+      <aside class="profile" aria-label="Profile">
+        <img class="profile__photo" src="assets/profile.png" alt="Portrait of Yulun Zhang" data-profile-photo>
+        <div class="profile__content">
+          <h2 class="profile__name" data-profile-name>Yulun Zhang</h2>
+          <p class="profile__role" data-profile-role></p>
+          <ul class="profile__links" data-profile-links></ul>
+        </div>
+      </aside>
+
+      <main id="main-content" class="content">
+        <section id="about" class="about-section" aria-labelledby="about-heading">
+          <h1 id="about-heading" data-about-heading>Hi, I am Yulun Zhang.</h1>
+
+          <div class="language-switcher" role="tablist" aria-label="Profile language">
+            <button class="language-tab is-active" type="button" role="tab" aria-selected="true" data-language="en">
+              English
+            </button>
+            <button class="language-tab" type="button" role="tab" aria-selected="false" data-language="zh">
+              中文
+            </button>
+          </div>
+
+          <div class="intro-copy" data-intro-copy></div>
+          <div class="research-note" data-research-note></div>
+        </section>
+
+        <section id="news" class="feature-section" aria-labelledby="news-heading">
+          <div class="section-kicker">
+            <i data-lucide="flame" aria-hidden="true"></i>
+            <span data-i18n="news.kicker">Updates</span>
+          </div>
+          <h2 id="news-heading" data-i18n="news.title">News</h2>
+          <div class="news-list" data-news-list></div>
+        </section>
+
+        <section id="publications" class="publications-section" aria-labelledby="publications-heading">
+          <h2 id="publications-heading" class="section-heading">
+            <i data-lucide="notebook-pen" aria-hidden="true"></i>
+            <span data-i18n="publications.title">Publications</span>
+          </h2>
+          <p class="publication-note" data-i18n="publications.note">
+            The highlighted name denotes the homepage owner.
+          </p>
+          <div class="filter-list" data-filter-list role="group" aria-label="Publication filters"></div>
+          <div class="publication-list" data-publication-list></div>
+          <p class="empty-state" data-empty-state hidden>No publications match the selected filters.</p>
+        </section>
+
+        <section id="honors" class="simple-section" aria-labelledby="honors-heading" data-optional-section="honors" hidden>
+          <h2 id="honors-heading" class="section-heading">
+            <i data-lucide="trophy" aria-hidden="true"></i>
+            <span data-i18n="honors.title">Honors and Awards</span>
+          </h2>
+          <ul data-honors-list></ul>
+        </section>
+
+        <section id="education" class="simple-section" aria-labelledby="education-heading" data-optional-section="education" hidden>
+          <h2 id="education-heading" class="section-heading">
+            <i data-lucide="book-open" aria-hidden="true"></i>
+            <span data-i18n="education.title">Education</span>
+          </h2>
+          <ul data-education-list></ul>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div>
+        <span>© <span data-current-year></span> <span data-footer-name>Yulun Zhang</span>.</span>
+        <span data-i18n="footer.credit">Visual style aligned with the iLearn academic homepage family.</span>
+      </div>
+    </footer>
+
+    <noscript>This homepage requires JavaScript to display its content.</noscript>
+  </body>
+</html>
