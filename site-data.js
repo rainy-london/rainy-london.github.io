@@ -21,8 +21,8 @@ window.SITE_DATA = {
       "欢迎来到我的个人主页！我目前是中国科学院大学<a href=\"https://www.siat.ac.cn/\" target=\"_blank\" rel=\"noreferrer\">深圳先进技术研究院</a>的硕士研究生，师从<a href=\"https://people.ucas.edu.cn/~rxwang\" target=\"_blank\" rel=\"noreferrer\">王如心教授</a>。同时，我也与<a href=\"https://lee-zixu.github.io/\" target=\"_blank\" rel=\"noreferrer\">李子旭博士</a>保持紧密合作。此前，我于 2023 年获得<a href=\"https://www.sdu.edu.cn/\" target=\"_blank\" rel=\"noreferrer\">山东大学</a>数据科学与大数据技术专业学士学位。我的研究兴趣主要聚焦于<strong>多模态大语言模型、鲁棒表征学习与可信人工智能</strong>。",
     ],
     note: {
-      en: "I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source. Additionally, as a member of the Intelligent Media Research Center (iLearn), all of our lab's papers and code are open source. Please visit <a href=\"https://github.com/iLearn-Lab\" target=\"_blank\" rel=\"noreferrer\">iLearn Lab</a> and feel free to share your valuable feedback.",
-      zh: "作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。我参与的主要项目均已全面开源；同时，智能媒体研究中心（iLearn）的论文、代码与相关项目也均已开源。欢迎访问 <a href=\"https://github.com/iLearn-Lab\" target=\"_blank\" rel=\"noreferrer\">iLearn Lab</a> 并提出宝贵意见。",
+      en: "I firmly believe in the power of open science. Currently, all the major projects I am involved in are fully open source.",
+      zh: "作为开放科学的坚定拥趸，我致力于将研究成果开源，以促进社区的交流与发展。我参与的主要项目均已全面开源。",
     },
   },
 
