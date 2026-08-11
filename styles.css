@@ -92,10 +92,32 @@ img {
 }
 
 .site-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
   color: #5b6169;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
+}
+
+.site-logo {
+  display: block;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+}
+
+.site-title span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.site-title:hover,
+.site-title:focus-visible {
+  color: var(--navy);
 }
 
 .site-shell {
@@ -688,6 +710,12 @@ noscript {
 
   .site-title {
     font-size: 13px;
+  }
+
+  .site-logo {
+    width: 28px;
+    height: 28px;
+    flex-basis: 28px;
   }
 
   .about-section h1 {

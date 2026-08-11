@@ -62,7 +62,7 @@
 
     document.documentElement.lang = language === "zh" ? "zh-CN" : "en";
     document.title = `${profile.name} | Academic Homepage`;
-    document.querySelector("[data-site-title]").textContent = `${profile.name}'s Homepage`;
+    document.querySelector("[data-site-title-text]").textContent = `${profile.name}'s Homepage`;
     document.querySelector("[data-profile-name]").textContent = displayName;
     document.querySelector("[data-about-heading]").textContent = fullHeading;
     document.querySelector("[data-footer-name]").textContent = profile.name;
