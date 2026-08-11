@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="logo-title logo-desc">
-  <title id="logo-title">Yulun Zhang monochrome personal logo</title>
-  <desc id="logo-desc">A raindrop containing three paths that converge into a Y.</desc>
-  <path d="M48 8C43 17 34 28 29 39C24 47 22 53 22 59C22 72 33 82 48 82C63 82 74 72 74 59C74 53 72 47 67 39C62 28 53 17 48 8Z" fill="none" stroke="#3f557a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M29 39L48 56L67 39M48 56V82" fill="none" stroke="#3f557a" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <g fill="#3f557a" stroke="#fff" stroke-width="2.5">
-    <circle cx="29" cy="39" r="5.75"/>
-    <circle cx="67" cy="39" r="5.75"/>
-    <circle cx="48" cy="82" r="5.75"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="logo-title logo-desc" role="img" viewBox="0 0 96 96"><title id="logo-title">Yulun Zhang monochrome personal logo</title><desc id="logo-desc">A raindrop containing three paths that converge into a Y.</desc><path fill="none" stroke="#3f557a" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M48 8C43 17 34 28 29 39C24 47 22 53 22 59C22 72 33 82 48 82C63 82 74 72 74 59C74 53 72 47 67 39C62 28 53 17 48 8Z"/><path fill="none" stroke="#3f557a" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.5" d="M29 39L48 56L67 39M48 56V82"/><g fill="#3f557a" stroke="#fff" stroke-width="2.5"><circle cx="29" cy="39" r="5.75"/><circle cx="67" cy="39" r="5.75"/><circle cx="48" cy="82" r="5.75"/></g></svg>
