@@ -56,6 +56,7 @@ window.SITE_DATA = {
       tags: ["ACM MM 2026", "First Author", "CCF A", "Multimodal Understanding"],
       links: [
         { label: "[Paper]", url: "https://arxiv.org/abs/2608.09152" },
+        { label: "[Project]", url: "https://rainy-london.github.io/LightAIR/" },
         { label: "[Code]", url: "https://github.com/rainy-london/LightAIR" },
       ],
     },
