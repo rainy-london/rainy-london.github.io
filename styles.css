@@ -541,6 +541,10 @@ a.publication-author:hover {
   margin-bottom: 15px;
 }
 
+.publication-links {
+  transform: translateY(6px);
+}
+
 .publication-tag {
   padding: 4px 10px;
   border: 1px solid #e5e7eb;
