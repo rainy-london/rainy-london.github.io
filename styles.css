@@ -542,7 +542,7 @@ a.publication-author:hover {
 }
 
 .publication-links {
-  transform: translateY(6px);
+  transform: translateY(5px);
 }
 
 .publication-tag {
