@@ -267,8 +267,12 @@ img {
   color: #24292e;
 }
 
+.intro-copy a {
+  color: #224b8d;
+}
+
 .intro-copy strong {
-  color: var(--navy-dark);
+  color: var(--navy);
 }
 
 .research-note {
@@ -278,7 +282,7 @@ img {
   border-radius: 12px;
   background: linear-gradient(180deg, #f8fbff 0%, #fff 100%);
   box-shadow: 0 6px 18px rgba(1, 47, 99, 0.06);
-  color: var(--navy-dark);
+  color: var(--navy);
 }
 
 .research-note p {
