@@ -56,9 +56,7 @@
     const profile = data.profile;
     const displayName = language === "zh" && profile.nameZh ? profile.nameZh : profile.name;
     const englishDisplayName = profile.nameZh ? `${profile.name} (${profile.nameZh})` : profile.name;
-    const fullHeading = language === "zh"
-      ? `你好，我是${displayName}（${profile.name}）。`
-      : `Hi, I am ${englishDisplayName}.`;
+    const fullHeading = `Hi, I am ${englishDisplayName}.`;
 
     document.documentElement.lang = language === "zh" ? "zh-CN" : "en";
     document.title = `${profile.name} | Academic Homepage`;
